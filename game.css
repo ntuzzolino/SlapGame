@@ -1,1 +1,37 @@
-/*Only use this file if you want to override bootstrap or create your own style*/
+.container-fluid{
+    text-align: center;
+    height: 200px;
+    color: white;
+    background-color: black;
+}
+.container{
+    text-align: center;
+   width: 100%;
+   
+    color: azure;
+    border: gold;
+    border-style: dotted;
+    background-color: darkslategray;
+}
+
+/*.tats {
+  justify-content: center;
+   display: flex
+}*/
+
+.sequence {
+  position: inherit; 
+  justify-content: inherit
+}
+.content {
+  background: url(butch.jpg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 75%;
+  
+  align-items: center center;
+  justify-content: center;
+}
+.row {
+  
+}
